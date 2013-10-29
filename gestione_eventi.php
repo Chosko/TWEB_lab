@@ -8,6 +8,7 @@ require_once("php/modules.php");
 class gestione_eventi implements IPage{
 	private $standard_layout;
 	private $title;
+	private $color;
 	private $db;
 	private $cerca;
 	private $auth;
@@ -21,6 +22,7 @@ class gestione_eventi implements IPage{
 		$this->standard_layout = true;
 		$this->title = "Area Riservata";
 		$this->db = new DBConn();
+		$this->color = "#F60";
 		$this->cerca = false;
 		$this->auth = array('eventi');
 	}
@@ -39,6 +41,10 @@ class gestione_eventi implements IPage{
 	
 	function cerca(){
 		return $this->cerca;
+	}
+	
+	function color(){
+		return $this->color;
 	}
 	
 	function db(){
@@ -100,7 +106,7 @@ class gestione_eventi implements IPage{
         
     	.eventi_all h3{
         	font-size: 20px;
-        	color: #F60;
+        	color: <?php echo $this->color(); ?>;
            	margin: 0 10px;
             font-weight:normal;
             padding: 0 4px;
@@ -148,13 +154,13 @@ class gestione_eventi implements IPage{
         
         .incima{
             float: right;
-            background-color: #F60;
+            background-color: <?php echo $this->color(); ?>;
             font-size: 16px;
             color: #FFF;
             padding: 3px;
 			border-radius: 8px;
             margin-right: 10px;
-			box-shadow: 0.9px 0.9px 8px #F60;
+			box-shadow: 0.9px 0.9px 8px <?php echo $this->color(); ?>;
         }
         
         .categoria{
@@ -187,7 +193,7 @@ class gestione_eventi implements IPage{
             box-shadow: 2px 2px 2px #888;
             cursor: pointer;
             font-size: 14px;
-        	background-color: #F60;
+        	background-color: <?php echo $this->color(); ?>;
         }
         
         .pulsante_ricerca_premuto{

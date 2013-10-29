@@ -7,6 +7,7 @@ require_once("php/functions.php");
 class home implements IPage{
 	private $standard_layout;
 	private $title;
+	private $color;
 	private $db;
 	private $cerca;
 	
@@ -17,7 +18,8 @@ class home implements IPage{
 		}
 		$this->standard_layout = true;
 		$this->title = "Eventi";
-		$this->db = new DBConn();	
+		$this->db = new DBConn();
+		$this->color = "#F60";		
 		$this->cerca = "Eventi";
 	}
 	
@@ -45,6 +47,10 @@ class home implements IPage{
 		return $this->cerca;
 	}
 	
+	function color(){
+		return $this->color;
+	}
+	
 	function head_tags() { ?>
 	<?php }
 	
@@ -58,7 +64,7 @@ class home implements IPage{
             box-shadow: 2px 2px 2px #888;
             cursor: pointer;
             font-size: 14px;
-        	background-color: #F60;
+        	background-color: <?php echo $this->color(); ?>;
         }
         
         .pulsante_ricerca_premuto{

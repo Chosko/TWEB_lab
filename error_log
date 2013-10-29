@@ -1,0 +1,341 @@
+[11-Jan-2012 10:07:05] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/pbgncves/public_html/php/dbConn.php on line 25
+[11-Jan-2012 10:07:17] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/pbgncves/public_html/php/dbConn.php on line 25
+[11-Jan-2012 10:07:25] PHP Warning:  require_once(contatti.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/pbgncves/public_html/index.php on line 18
+[11-Jan-2012 10:07:25] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'contatti.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pbgncves/public_html/index.php on line 18
+[11-Jan-2012 10:07:26] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/pbgncves/public_html/php/dbConn.php on line 25
+[11-Jan-2012 10:07:27] PHP Fatal error:  Class menu contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (IPage::after_headers) in /home/pbgncves/public_html/menu.php on line 88
+[11-Jan-2012 10:07:31] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/pbgncves/public_html/php/dbConn.php on line 25
+[11-Jan-2012 10:07:32] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/pbgncves/public_html/php/dbConn.php on line 25
+[11-Jan-2012 17:44:20] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/pbgncves/public_html/php/dbConn.php on line 25
+[11-Jan-2012 17:44:31] PHP Fatal error:  Class menu contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (IPage::after_headers) in /home/pbgncves/public_html/menu.php on line 88
+[11-Jan-2012 17:44:36] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/pbgncves/public_html/php/dbConn.php on line 25
+[11-Jan-2012 17:44:38] PHP Warning:  require_once(prenotazioni.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/pbgncves/public_html/index.php on line 18
+[11-Jan-2012 17:44:38] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'prenotazioni.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pbgncves/public_html/index.php on line 18
+[11-Jan-2012 17:44:40] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/pbgncves/public_html/php/dbConn.php on line 25
+[11-Jan-2012 17:46:24] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/pbgncves/public_html/php/dbConn.php on line 25
+[11-Jan-2012 17:46:29] PHP Warning:  require_once(contatti.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/pbgncves/public_html/index.php on line 18
+[11-Jan-2012 17:46:29] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'contatti.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pbgncves/public_html/index.php on line 18
+[11-Jan-2012 20:11:59] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'pbgncves_progett'@'srv-hp7.netsons.net' (using password: YES) in /home/pbgncves/public_html/php/dbConn.php on line 25
+[11-Jan-2012 20:13:12] PHP Warning:  require_once(contatti.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/pbgncves/public_html/index.php on line 18
+[11-Jan-2012 20:13:12] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'contatti.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pbgncves/public_html/index.php on line 18
+[11-Jan-2012 20:59:10] PHP Fatal error:  Class menu contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (IPage::after_headers) in /home/pbgncves/public_html/menu.php on line 88
+[12-Jan-2012 13:48:06] PHP Fatal error:  Class menu contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (IPage::after_headers) in /home/pbgncves/public_html/menu.php on line 88
+[12-Jan-2012 13:48:35] PHP Fatal error:  Class menu contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (IPage::after_headers) in /home/pbgncves/public_html/menu.php on line 88
+[12-Jan-2012 13:48:43] PHP Warning:  require_once(contatti.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/pbgncves/public_html/index.php on line 18
+[12-Jan-2012 13:48:43] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'contatti.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pbgncves/public_html/index.php on line 18
+[12-Jan-2012 13:49:12] PHP Warning:  require_once(contatti.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/pbgncves/public_html/index.php on line 18
+[12-Jan-2012 13:49:12] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'contatti.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pbgncves/public_html/index.php on line 18
+[12-Jan-2012 15:35:16] PHP Warning:  require_once(contatti.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/pbgncves/public_html/index.php on line 18
+[12-Jan-2012 15:35:16] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'contatti.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pbgncves/public_html/index.php on line 18
+[14-Jan-2012 13:28:42] PHP Fatal error:  Class menu contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (IPage::after_headers) in /home/pbgncves/public_html/menu.php on line 88
+[14-Jan-2012 13:28:44] PHP Warning:  require_once(prenotazioni.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/pbgncves/public_html/index.php on line 18
+[14-Jan-2012 13:28:44] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'prenotazioni.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pbgncves/public_html/index.php on line 18
+[14-Jan-2012 13:28:46] PHP Warning:  require_once(info.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/pbgncves/public_html/index.php on line 18
+[14-Jan-2012 13:28:46] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'info.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pbgncves/public_html/index.php on line 18
+[14-Jan-2012 13:29:26] PHP Warning:  require_once(contatti.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/pbgncves/public_html/index.php on line 18
+[14-Jan-2012 13:29:26] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'contatti.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pbgncves/public_html/index.php on line 18
+[14-Jan-2012 16:07:45] PHP Fatal error:  Class menu contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (IPage::after_headers) in /home/pbgncves/public_html/menu.php on line 88
+[14-Jan-2012 16:07:49] PHP Warning:  require_once(prenotazioni.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/pbgncves/public_html/index.php on line 18
+[14-Jan-2012 16:07:49] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'prenotazioni.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pbgncves/public_html/index.php on line 18
+[14-Jan-2012 16:07:52] PHP Warning:  require_once(info.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/pbgncves/public_html/index.php on line 18
+[14-Jan-2012 16:07:52] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'info.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pbgncves/public_html/index.php on line 18
+[14-Jan-2012 16:07:55] PHP Warning:  require_once(contatti.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/pbgncves/public_html/index.php on line 18
+[14-Jan-2012 16:07:55] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'contatti.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pbgncves/public_html/index.php on line 18
+[14-Jan-2012 16:18:26] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Empty regular expression in /home/pbgncves/public_html/php/dbConn.php on line 351
+[14-Jan-2012 16:18:50] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Empty regular expression in /home/pbgncves/public_html/php/dbConn.php on line 351
+[14-Jan-2012 16:20:46] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:20:46] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:21:43] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:21:43] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:21:46] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:21:47] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:21:47] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/login.php on line 31
+[14-Jan-2012 16:21:48] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:21:48] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:22:51] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:22:53] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:22:53] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/login.php on line 31
+[14-Jan-2012 16:22:53] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:22:53] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:22:56] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:23:08] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:23:24] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:23:24] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/login.php on line 31
+[14-Jan-2012 16:23:24] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:23:24] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:23:27] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:23:53] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:23:53] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/login.php on line 31
+[14-Jan-2012 16:23:53] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:23:53] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:24:17] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Empty regular expression in /home/pbgncves/public_html/php/dbConn.php on line 351
+[14-Jan-2012 16:24:26] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Empty regular expression in /home/pbgncves/public_html/php/dbConn.php on line 351
+[14-Jan-2012 16:24:28] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:24:33] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Empty regular expression in /home/pbgncves/public_html/php/dbConn.php on line 351
+[14-Jan-2012 16:24:34] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:24:41] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Empty regular expression in /home/pbgncves/public_html/php/dbConn.php on line 351
+[14-Jan-2012 16:24:56] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:25:13] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:25:14] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/login.php on line 31
+[14-Jan-2012 16:25:14] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:25:14] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:25:28] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Empty regular expression in /home/pbgncves/public_html/php/dbConn.php on line 351
+[14-Jan-2012 16:25:34] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Empty regular expression in /home/pbgncves/public_html/php/dbConn.php on line 351
+[14-Jan-2012 16:26:03] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:26:04] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:26:04] PHP Fatal error:  Class menu contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (IPage::after_headers) in /home/pbgncves/public_html/menu.php on line 88
+[14-Jan-2012 16:26:06] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:26:08] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:26:08] PHP Warning:  require_once(prenotazioni.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/pbgncves/public_html/index.php on line 18
+[14-Jan-2012 16:26:08] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'prenotazioni.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pbgncves/public_html/index.php on line 18
+[14-Jan-2012 16:26:10] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:26:11] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:26:15] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:26:34] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:26:34] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/login.php on line 31
+[14-Jan-2012 16:26:35] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:26:35] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:26:49] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Empty regular expression in /home/pbgncves/public_html/php/dbConn.php on line 351
+[14-Jan-2012 16:27:06] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Empty regular expression in /home/pbgncves/public_html/php/dbConn.php on line 351
+[14-Jan-2012 16:40:17] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_1c75f766bbaf81fcacdfdbff4c4723c4, O_RDWR) failed: Permission denied (13) in /home/pbgncves/public_html/index.php on line 5
+[14-Jan-2012 16:49:35] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/pbgncves/public_html/php/dbConn.php on line 25
+[14-Jan-2012 17:22:21] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 48
+[14-Jan-2012 17:22:21] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 51
+[14-Jan-2012 18:17:50] PHP Fatal error:  Class menu contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (IPage::after_headers) in /home/pbgncves/public_html/menu.php on line 88
+[14-Jan-2012 18:39:22] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Empty regular expression in /home/pbgncves/public_html/php/dbConn.php on line 351
+[14-Jan-2012 18:39:50] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Empty regular expression in /home/pbgncves/public_html/php/dbConn.php on line 351
+[14-Jan-2012 18:41:00] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Empty regular expression in /home/pbgncves/public_html/php/dbConn.php on line 351
+[15-Jan-2012 13:25:44] PHP Fatal error:  Class menu contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (IPage::after_headers) in /home/pbgncves/public_html/menu.php on line 88
+[15-Jan-2012 13:25:47] PHP Warning:  require_once(prenotazioni.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/pbgncves/public_html/index.php on line 18
+[15-Jan-2012 13:25:47] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'prenotazioni.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pbgncves/public_html/index.php on line 18
+[15-Jan-2012 13:25:49] PHP Warning:  require_once(contatti.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/pbgncves/public_html/index.php on line 18
+[15-Jan-2012 13:25:49] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'contatti.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pbgncves/public_html/index.php on line 18
+[15-Jan-2012 13:26:08] PHP Warning:  require_once(contatti.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/pbgncves/public_html/index.php on line 18
+[15-Jan-2012 13:26:08] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'contatti.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pbgncves/public_html/index.php on line 18
+[17-Jan-2012 09:06:23] PHP Warning:  require_once(contatti.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/pbgncves/public_html/index.php on line 18
+[17-Jan-2012 09:06:23] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'contatti.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pbgncves/public_html/index.php on line 18
+[19-Jan-2012 20:35:18 UTC] PHP Warning:  require_once(db_config.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/pbgncves/public_html/php/dbConn.php on line 13
+[19-Jan-2012 20:35:18 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'db_config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pbgncves/public_html/php/dbConn.php on line 13
+[19-Jan-2012 20:35:35 UTC] PHP Warning:  require_once(db_config.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/pbgncves/public_html/php/dbConn.php on line 13
+[19-Jan-2012 20:35:35 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'db_config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pbgncves/public_html/php/dbConn.php on line 13
+[19-Jan-2012 20:35:39 UTC] PHP Warning:  require_once(db_config.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/pbgncves/public_html/php/dbConn.php on line 13
+[19-Jan-2012 20:35:39 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'db_config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pbgncves/public_html/php/dbConn.php on line 13
+[19-Jan-2012 20:35:44 UTC] PHP Warning:  require_once(db_config.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/pbgncves/public_html/php/dbConn.php on line 13
+[19-Jan-2012 20:35:44 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'db_config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pbgncves/public_html/php/dbConn.php on line 13
+[19-Jan-2012 20:41:07 UTC] PHP Warning:  require_once(db_config.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/pbgncves/public_html/php/dbConn.php on line 13
+[19-Jan-2012 20:41:07 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'db_config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pbgncves/public_html/php/dbConn.php on line 13
+[19-Jan-2012 23:21:13 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 54
+[19-Jan-2012 23:21:13 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 57
+[19-Jan-2012 23:21:13 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 60
+[19-Jan-2012 23:21:13 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[19-Jan-2012 23:21:13 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[19-Jan-2012 23:21:13 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[19-Jan-2012 23:21:13 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 66
+[19-Jan-2012 23:21:13 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 66
+[19-Jan-2012 23:30:26 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 54
+[19-Jan-2012 23:30:26 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 57
+[19-Jan-2012 23:30:26 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 60
+[19-Jan-2012 23:30:26 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[19-Jan-2012 23:30:26 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[19-Jan-2012 23:30:26 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[19-Jan-2012 23:30:26 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 66
+[19-Jan-2012 23:30:26 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 66
+[20-Jan-2012 05:46:03 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 54
+[20-Jan-2012 05:46:03 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 57
+[20-Jan-2012 05:46:03 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 60
+[20-Jan-2012 05:46:03 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[20-Jan-2012 05:46:03 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[20-Jan-2012 05:46:03 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[20-Jan-2012 05:46:03 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 66
+[20-Jan-2012 05:49:40 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 54
+[20-Jan-2012 05:49:40 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 57
+[20-Jan-2012 05:49:40 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 60
+[20-Jan-2012 05:49:40 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[20-Jan-2012 05:49:40 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[20-Jan-2012 05:49:40 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[20-Jan-2012 05:49:40 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 66
+[20-Jan-2012 11:12:13 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 54
+[20-Jan-2012 11:12:13 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 57
+[20-Jan-2012 11:12:13 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 60
+[20-Jan-2012 11:12:13 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[20-Jan-2012 11:12:13 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[20-Jan-2012 11:12:13 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[20-Jan-2012 11:12:13 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 66
+[20-Jan-2012 11:15:26 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 54
+[20-Jan-2012 11:15:26 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 57
+[20-Jan-2012 11:15:26 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 60
+[20-Jan-2012 11:15:26 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[20-Jan-2012 11:15:26 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[20-Jan-2012 11:15:26 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[20-Jan-2012 11:15:26 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 66
+[20-Jan-2012 11:15:30 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 54
+[20-Jan-2012 11:15:30 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 57
+[20-Jan-2012 11:15:30 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 60
+[20-Jan-2012 11:15:30 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[20-Jan-2012 11:15:30 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[20-Jan-2012 11:15:30 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[20-Jan-2012 11:15:30 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 66
+[20-Jan-2012 11:15:38 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 54
+[20-Jan-2012 11:15:38 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 57
+[20-Jan-2012 11:15:38 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 60
+[20-Jan-2012 11:15:38 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[20-Jan-2012 11:15:38 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[20-Jan-2012 11:15:38 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[20-Jan-2012 11:15:38 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 66
+[20-Jan-2012 12:17:22 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 445
+[20-Jan-2012 12:17:22 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 448
+[20-Jan-2012 12:17:22 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 445
+[20-Jan-2012 12:17:22 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 448
+[20-Jan-2012 12:17:22 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 445
+[20-Jan-2012 12:17:22 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 448
+[20-Jan-2012 12:17:22 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 445
+[20-Jan-2012 12:17:22 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 448
+[20-Jan-2012 12:17:22 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 54
+[20-Jan-2012 12:17:22 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 57
+[20-Jan-2012 12:17:22 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 60
+[20-Jan-2012 12:17:22 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[20-Jan-2012 12:17:22 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[20-Jan-2012 12:17:22 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[20-Jan-2012 12:17:22 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 66
+[20-Jan-2012 13:31:06 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 54
+[20-Jan-2012 13:31:06 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 57
+[20-Jan-2012 13:31:06 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 60
+[20-Jan-2012 13:31:06 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[20-Jan-2012 13:31:06 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[20-Jan-2012 13:31:06 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[20-Jan-2012 13:31:06 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 66
+[20-Jan-2012 13:32:44 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 445
+[20-Jan-2012 13:32:44 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 448
+[20-Jan-2012 13:32:44 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 445
+[20-Jan-2012 13:32:44 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 448
+[20-Jan-2012 13:32:44 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 445
+[20-Jan-2012 13:32:44 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 448
+[20-Jan-2012 13:32:44 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 445
+[20-Jan-2012 13:32:44 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 448
+[20-Jan-2012 13:32:44 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 445
+[20-Jan-2012 13:32:44 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 448
+[20-Jan-2012 13:32:44 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 445
+[20-Jan-2012 13:32:44 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 448
+[20-Jan-2012 13:32:44 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 54
+[20-Jan-2012 13:32:44 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 57
+[20-Jan-2012 13:32:44 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 60
+[20-Jan-2012 13:32:44 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[20-Jan-2012 13:32:44 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[20-Jan-2012 13:32:44 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[20-Jan-2012 13:32:44 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 66
+[20-Jan-2012 13:33:34 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_privilegi.php on line 259
+[20-Jan-2012 13:33:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/pbgncves/public_html/gestione_privilegi.php on line 261
+[20-Jan-2012 13:33:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/pbgncves/public_html/gestione_privilegi.php on line 270
+[20-Jan-2012 13:33:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/pbgncves/public_html/gestione_privilegi.php on line 313
+[20-Jan-2012 13:33:34 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 54
+[20-Jan-2012 13:33:34 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 57
+[20-Jan-2012 13:33:34 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 60
+[20-Jan-2012 13:33:34 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[20-Jan-2012 13:33:34 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[20-Jan-2012 13:33:34 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[20-Jan-2012 13:33:34 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 66
+[20-Jan-2012 13:34:14 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 445
+[20-Jan-2012 13:34:14 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 448
+[20-Jan-2012 13:34:14 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 445
+[20-Jan-2012 13:34:14 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 448
+[20-Jan-2012 13:34:14 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 445
+[20-Jan-2012 13:34:14 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 448
+[20-Jan-2012 13:34:14 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 445
+[20-Jan-2012 13:34:14 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 448
+[20-Jan-2012 13:34:14 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 445
+[20-Jan-2012 13:34:14 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 448
+[20-Jan-2012 13:34:14 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 445
+[20-Jan-2012 13:34:14 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 448
+[20-Jan-2012 13:34:14 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 54
+[20-Jan-2012 13:34:14 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 57
+[20-Jan-2012 13:34:14 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 60
+[20-Jan-2012 13:34:14 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[20-Jan-2012 13:34:14 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[20-Jan-2012 13:34:14 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[20-Jan-2012 13:34:14 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 66
+[20-Jan-2012 13:36:20 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_privilegi.php on line 259
+[20-Jan-2012 13:36:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/pbgncves/public_html/gestione_privilegi.php on line 261
+[20-Jan-2012 13:36:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/pbgncves/public_html/gestione_privilegi.php on line 270
+[20-Jan-2012 13:36:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/pbgncves/public_html/gestione_privilegi.php on line 313
+[20-Jan-2012 13:36:20 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 54
+[20-Jan-2012 13:36:20 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 57
+[20-Jan-2012 13:36:20 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 60
+[20-Jan-2012 13:36:20 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[20-Jan-2012 13:36:20 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[20-Jan-2012 13:36:20 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[20-Jan-2012 13:36:20 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 66
+[22-Jan-2012 15:21:42 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 54
+[22-Jan-2012 15:21:42 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 57
+[22-Jan-2012 15:21:42 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 60
+[22-Jan-2012 15:21:42 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[22-Jan-2012 15:21:42 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 66
+[22-Jan-2012 15:30:29 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_privilegi.php on line 259
+[22-Jan-2012 15:30:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/pbgncves/public_html/gestione_privilegi.php on line 261
+[22-Jan-2012 15:30:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/pbgncves/public_html/gestione_privilegi.php on line 270
+[22-Jan-2012 15:30:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/pbgncves/public_html/gestione_privilegi.php on line 313
+[22-Jan-2012 15:30:29 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 54
+[22-Jan-2012 15:30:29 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 57
+[22-Jan-2012 15:30:29 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 60
+[22-Jan-2012 15:30:29 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[22-Jan-2012 15:30:29 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 66
+[22-Jan-2012 15:31:32 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 445
+[22-Jan-2012 15:31:32 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 448
+[22-Jan-2012 15:31:32 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 445
+[22-Jan-2012 15:31:32 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 448
+[22-Jan-2012 15:31:32 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 445
+[22-Jan-2012 15:31:32 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 448
+[22-Jan-2012 15:31:32 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 445
+[22-Jan-2012 15:31:32 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 448
+[22-Jan-2012 15:31:32 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 445
+[22-Jan-2012 15:31:32 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 448
+[22-Jan-2012 15:31:32 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 445
+[22-Jan-2012 15:31:32 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 448
+[22-Jan-2012 15:31:32 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 54
+[22-Jan-2012 15:31:32 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 57
+[22-Jan-2012 15:31:32 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 60
+[22-Jan-2012 15:31:32 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[22-Jan-2012 15:31:32 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 66
+[22-Jan-2012 15:32:14 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_privilegi.php on line 259
+[22-Jan-2012 15:32:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/pbgncves/public_html/gestione_privilegi.php on line 261
+[22-Jan-2012 15:32:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/pbgncves/public_html/gestione_privilegi.php on line 270
+[22-Jan-2012 15:32:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/pbgncves/public_html/gestione_privilegi.php on line 313
+[22-Jan-2012 15:32:14 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 54
+[22-Jan-2012 15:32:14 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 57
+[22-Jan-2012 15:32:14 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 60
+[22-Jan-2012 15:32:14 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[22-Jan-2012 15:32:14 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 66
+[22-Jan-2012 15:33:07 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 445
+[22-Jan-2012 15:33:07 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 448
+[22-Jan-2012 15:33:07 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 445
+[22-Jan-2012 15:33:07 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 448
+[22-Jan-2012 15:33:07 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 445
+[22-Jan-2012 15:33:07 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 448
+[22-Jan-2012 15:33:07 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 445
+[22-Jan-2012 15:33:07 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 448
+[22-Jan-2012 15:33:07 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 445
+[22-Jan-2012 15:33:07 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 448
+[22-Jan-2012 15:33:07 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 445
+[22-Jan-2012 15:33:07 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 448
+[22-Jan-2012 15:33:07 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 54
+[22-Jan-2012 15:33:07 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 57
+[22-Jan-2012 15:33:07 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 60
+[22-Jan-2012 15:33:07 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[22-Jan-2012 15:33:07 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 66
+[02-Feb-2012 14:49:17 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 445
+[02-Feb-2012 14:49:17 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 448
+[02-Feb-2012 14:49:17 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 445
+[02-Feb-2012 14:49:17 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 448
+[02-Feb-2012 14:49:17 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 445
+[02-Feb-2012 14:49:17 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 448
+[02-Feb-2012 14:49:17 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 445
+[02-Feb-2012 14:49:17 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 448
+[02-Feb-2012 14:49:17 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 445
+[02-Feb-2012 14:49:17 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 448
+[02-Feb-2012 14:49:17 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 445
+[02-Feb-2012 14:49:17 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/gestione_utenti.php on line 448
+[02-Feb-2012 14:49:17 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 54
+[02-Feb-2012 14:49:17 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 57
+[02-Feb-2012 14:49:17 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 60
+[02-Feb-2012 14:49:17 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 63
+[02-Feb-2012 14:49:17 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/pbgncves/public_html/php/modules.php on line 66
+[02-Oct-2012 09:49:54 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/pbgncves/public_html/php/dbConn.php on line 25

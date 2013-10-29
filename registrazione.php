@@ -7,6 +7,7 @@ require_once("php/functions.php");
 class registrazione implements IPage{
 	private $standard_layout;
 	private $title;
+	private $color;
 	private $db;
 	private $cerca;
 	
@@ -18,6 +19,7 @@ class registrazione implements IPage{
 		$this->standard_layout = true;
 		$this->title = "Registrazione";
 		$this->db = new DBConn();
+		$this->color = "#F60";		
 		$this->cerca = false;
 	}
 	
@@ -46,6 +48,10 @@ class registrazione implements IPage{
 	
 	function cerca(){
 		return $this->cerca;
+	}
+	
+	function color(){
+		return $this->color;
 	}
 	
 	function head_tags() { ?>

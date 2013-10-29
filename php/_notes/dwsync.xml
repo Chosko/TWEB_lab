@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name="functions.php" server="ftp.rubencaliandro.it/public_html/" local="129713774558155926" remote="129751759200000000" />
-<file name="modules.php" server="ftp.rubencaliandro.it/public_html/" local="129715438579796551" remote="129751759800000000" />
-<file name="site_config.php" server="ftp.rubencaliandro.it/public_html/" local="129715446939202087" remote="129751759800000000" />
-<file name="dbConn.php" server="ftp.rubencaliandro.it/public_html/" local="129715430798322316" remote="129751759200000000" />
-<file name="check_registrazione.php" server="ftp.rubencaliandro.it/public_html/" local="129714422494319298" remote="129751759200000000" />
-<file name="dump.sql" server="ftp.rubencaliandro.it/public_html/" local="129715449952675881" remote="129751759200000000" />
-<file name="db_config.php" server="ftp.rubencaliandro.it/public_html/" local="129715450700000000" remote="-1" />
-<file name="page_interface.php" server="ftp.rubencaliandro.it/public_html/" local="129706097169090536" remote="129751759800000000" />
+<file name="check_registrazione.php" server="ftp.rubencaliandro.it/public_html/" local="129751164000000000" remote="129751164000000000" />
+<file name="dbConn.php" server="ftp.rubencaliandro.it/public_html/" local="129751164000000000" remote="129751164000000000" />
+<file name="db_config.php" server="ftp.rubencaliandro.it/public_html/" local="129714012000000000" remote="129714012000000000" />
+<file name="dump.sql" server="ftp.rubencaliandro.it/public_html/" local="129751164000000000" remote="129751164000000000" />
+<file name="functions.php" server="ftp.rubencaliandro.it/public_html/" local="129751164000000000" remote="129751164000000000" />
+<file name="modules.php" server="ftp.rubencaliandro.it/public_html/" local="129751164000000000" remote="129751164000000000" />
+<file name="page_interface.php" server="ftp.rubencaliandro.it/public_html/" local="129751164000000000" remote="129751164000000000" />
+<file name="site_config.php" server="ftp.rubencaliandro.it/public_html/" local="129751164000000000" remote="129751164000000000" />
+<file name="check_registrazione.php" server="C:/xampp/htdocs/rubencaliandro/" local="129751164000000000" remote="129751164000000000" />
+<file name="dbConn.php" server="C:/xampp/htdocs/rubencaliandro/" local="129751164000000000" remote="129751164000000000" />
+<file name="dump.sql" server="C:/xampp/htdocs/rubencaliandro/" local="129751164000000000" remote="129751164000000000" />
+<file name="functions.php" server="C:/xampp/htdocs/rubencaliandro/" local="129751164000000000" remote="129751164000000000" />
+<file name="modules.php" server="C:/xampp/htdocs/rubencaliandro/" local="129751164000000000" remote="129751164000000000" />
+<file name="site_config.php" server="C:/xampp/htdocs/rubencaliandro/" local="129751164000000000" remote="129751164000000000" />
 </dwsync>

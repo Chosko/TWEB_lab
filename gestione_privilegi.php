@@ -8,6 +8,7 @@ require_once("php/modules.php");
 class gestione_privilegi implements IPage{
 	private $standard_layout;
 	private $title;
+	private $color;
 	private $db;
 	private $cerca;
 	private $auth;
@@ -21,6 +22,7 @@ class gestione_privilegi implements IPage{
 		$this->standard_layout = true;
 		$this->title = "Area Riservata";
 		$this->db = new DBConn();
+		$this->color = "#F60";
 		$this->cerca = false;
 		$this->auth = array('categorie utenti');
 	}
@@ -39,6 +41,10 @@ class gestione_privilegi implements IPage{
 	
 	function cerca(){
 		return $this->cerca;
+	}
+	
+	function color(){
+		return $this->color;
 	}
 	
 	function db(){
@@ -77,7 +83,7 @@ class gestione_privilegi implements IPage{
             box-shadow: 2px 2px 2px #888;
             cursor: pointer;
             font-size: 14px;
-        	background-color: #F60;
+        	background-color: <?php echo $this->color(); ?>;
         }
         
         .pulsante_ricerca_premuto{
@@ -250,7 +256,7 @@ class gestione_privilegi implements IPage{
 			$categorie_utenti[] = $obj_categorie->categoriautente;
 		}
 		
-		if(isset($_SESSION['seleziona_gestione_privilegi']) && array_search($_SESSION['seleziona_gestione_privilegi'], $categorie_utenti) === false)
+		if(array_search($_SESSION['seleziona_gestione_privilegi'], $categorie_utenti) === false)
 			$_SESSION['seleziona_gestione_privilegi'] = NULL;
 		foreach($categorie_utenti as $cat){
 			if(isset($this->$cat)){

@@ -6,6 +6,7 @@ require_once("php/dbConn.php");
 class denied implements IPage{
 	private $standard_layout;
 	private $title;
+	private $color;
 	private $db;
 	private $cerca;
 	
@@ -16,7 +17,8 @@ class denied implements IPage{
 		}
 		$this->standard_layout = true;
 		$this->title = "Accesso Negato";
-		$this->db = new DBConn();	
+		$this->db = new DBConn();
+		$this->color = "#F60";		
 		$this->cerca = false;
 	}
 	
@@ -42,6 +44,10 @@ class denied implements IPage{
 	
 	function cerca(){
 		return $this->cerca;
+	}
+	
+	function color(){
+		return $this->color;
 	}
 	
 	function head_tags() { ?>

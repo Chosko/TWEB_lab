@@ -5,7 +5,7 @@ require_once("php/functions.php");
 require_once("php/modules.php");
 
 //Per un dettaglio sulle funzioni vedere i commenti all'interfaccia IPage
-class gestione_utenti implements IPage{
+class gestione_privilegi implements IPage{
 	private $standard_layout;
 	private $title;
 	private $color;
@@ -14,7 +14,7 @@ class gestione_utenti implements IPage{
 	private $auth;
 	private $privilegi;
 	
-	function gestione_utenti(){
+	function gestione_privilegi(){
 		//Incapsula i valori di tutti i parametri get in omonimi campi dell'oggetto.
 		foreach($_GET as $k=>$v){
 			$this->$k = $v;
@@ -24,7 +24,7 @@ class gestione_utenti implements IPage{
 		$this->db = new DBConn();
 		$this->color = "#F60";
 		$this->cerca = false;
-		$this->auth = array('eliminare utenti', 'privilegiare utenti', 'visualizzare utenti');
+		$this->auth = array('categorie utenti', 'privilegi');
 	}
 	
 	function after_headers(){
@@ -75,88 +75,6 @@ class gestione_utenti implements IPage{
 	function css_rules(){ 
 		gestisci_css();
 	?> 
-    	.utenti_all h1{
-            margin: 0 10px;
-            font-size: 25px;
-            text-align: left;
-            font-weight: normal;
-            letter-spacing: 1px;
-            color: #000;
-            padding: 0 4px;
-        }
-        
-        .utenti_all .utente:first-child{
-        	border-top: 1px solid #CCC;
-        }
-        
-        .utenti_all .utente{
-        	border-bottom: 1px solid #CCC;
-            padding: 8px 0;
-            cursor: pointer;
-            display: none;
-        }
-        
-        .utenti_all .utente_full{
-        	border-bottom: 1px solid #CCC;
-            padding: 0 0;
-        }
-        
-        .utenti_all .utente:hover{
-            background-color: #FDB;
-        }
-        
-    	.utenti_all h3{
-        	font-size: 20px;
-        	color: <?php echo $this->color(); ?>;
-           	margin: 0 10px;
-            font-weight:normal;
-            padding: 0 4px;
-        }
-        
-        .utenti_all p{
-        	text-align:justify;
-            margin: 10px;
-            padding: 0 4px;
-        }
-        
-        .utenti_all .inner{
-            background-color: #FDB;
-            padding: 8px 0;
-            cursor: pointer;
-        }
-        
-        .utenti_all .inner:hover{
-            background-color: #FB6;
-        }
-        
-        .utenti_all .profilo{
-            float: right;
-            margin-right: 10px;
-            font-size: 16px;
-            color: #666;
-        }
-        
-        .utenti_all .attivo{
-        	float: right;
-            background-color: #0C0;
-            font-size: 16px;
-            color: #FFF;
-            padding: 3px;
-			border-radius: 8px;
-            margin-right: 10px;
-			box-shadow: 0.9px 0.9px 8px #0C0;
-        }
-        
-        .utenti_all .inattivo{
-        	float: right;
-            background-color: #999;
-            font-size: 16px;
-            color: #FFF;
-            padding: 3px;
-			border-radius: 8px;
-            margin-right: 10px;
-        }
-        
         .pulsante_ricerca{
         	border-radius: 8px;
             border: none;
@@ -178,62 +96,6 @@ class gestione_utenti implements IPage{
             font-size: 14px;
          	background-color: #F20;
         }
-        
-        .left{
-        	position: absolute;
-        }
-        
-        .middle{
-        	position: absolute;
-            margin-left: 300px;
-        }
-        
-        .right{
-        	font-size: 14px;
-            float:right;
-            margin-left: 15px;
-        }
-        
-        .vuoto{
-        	color: #999;
-        }
-        
-        .subtitle{
-        	color: <?php echo $this->color(); ?>;
-        }
-        
-        .response{
-        	text-align: center;
-            margin: 5px;
-        }
-        
-        .red{
-        	color: red;
-            background-color: #FCC;
-            border: 2px solid red;
-            padding: 5px;
-        }
-        
-        .yellow{
-        	color: #AA0;
-            background-color: #FFD;
-            border: 2px solid yellow;
-            padding: 5px;
-        }
-        
-        .green{
-        	color: green;
-            background-color: #8F8;
-            border: 2px solid green;
-            padding: 5px;
-        }
-        
-        .nuovo {
-            font-size: 16px;
-            padding-bottom: 4px;
-            line-height: 30px;
-            margin-left: 10px;
-        }
 	<?php 
 	}
 	
@@ -242,7 +104,7 @@ class gestione_utenti implements IPage{
 		if(isset($this->a) && isset($this->id)){
 			switch($this->a){
 				case 'attiva':
-					if(!(array_search('privilegiare utenti', $this->privilegi)=== false)){
+					if(array_search('privilegiare utenti', $this->privilegi)){
 						if($this->id != $_SESSION['utente']){
 							if(trim($this->id != '')){
 								if($this->db->attiva_utente($this->id))
@@ -260,7 +122,7 @@ class gestione_utenti implements IPage{
 						$response = '<span class="red">Non possiedi i privilegi necessari per effettuare questo tipo di operazione!</span>';
 					break;
 				case 'disattiva':
-					if(!(array_search('privilegiare utenti', $this->privilegi)===false)){
+					if(array_search('privilegiare utenti', $this->privilegi)){
 						if($this->id != $_SESSION['utente']){
 							if(trim($this->id != '')){
 								if($this->db->disattiva_utente($this->id))
@@ -278,7 +140,7 @@ class gestione_utenti implements IPage{
 						$response = '<span class="red">Non possiedi i privilegi necessari per effettuare questo tipo di operazione!</span>';
 					break;
 				case 'elimina':
-					if(!(array_search('eliminare utenti', $this->privilegi)=== false)){
+					if(array_search('eliminare utenti', $this->privilegi)){
 						if($this->id != $_SESSION['utente']){
 							if(trim($this->id != '')){
 								if($this->db->elimina_utente($this->id))
@@ -296,7 +158,7 @@ class gestione_utenti implements IPage{
 						$response = '<span class="red">Non possiedi i privilegi necessari per effettuare questo tipo di operazione!</span>';
 					break;
 				case 'cambia_profilo':
-					if(!(array_search('privilegiare utenti', $this->privilegi)=== false)){
+					if(array_search('privilegiare utenti', $this->privilegi)){
 						if($this->id != $_SESSION['utente']){
 							if(trim($this->id != '' && isset($this->nuova_categoriautente) && trim($this->nuova_categoriautente) != '')){
 								if($this->db->modifica_dato_utente($this->id, 'categoriautente', $this->nuova_categoriautente))
@@ -316,30 +178,30 @@ class gestione_utenti implements IPage{
 			}
 		}
 		
-		$res_categorie = $this->db->seleziona_categorie_utenti($this->priorita);
+		$res_categorie = $this->db->seleziona_categorie_utenti();
 		$categorie_utenti = NULL;
 		while($obj_categorie = $this->db->fetch_object()){
 			$categorie_utenti[] = $obj_categorie->categoriautente;
 		}
 		
 		if(isset($this->seleziona_inattivi)){
-			$_SESSION['seleziona_gestione_utenti'] = 'inattivi';
+			$_SESSION['seleziona_gestione_privilegi'] = 'inattivi';
 		}
 		if(isset($this->seleziona_attivi)){
-			$_SESSION['seleziona_gestione_utenti'] = 'attivi';
+			$_SESSION['seleziona_gestione_privilegi'] = 'attivi';
 		}
 		if(isset($this->seleziona_tutti)){
-			$_SESSION['seleziona_gestione_utenti'] = 'tutti';
+			$_SESSION['seleziona_gestione_privilegi'] = 'tutti';
 		}
 		foreach($categorie_utenti as $cat){
 			if(isset($this->$cat)){
-				$_SESSION['seleziona_gestione_utenti'] = $cat;
+				$_SESSION['seleziona_gestione_privilegi'] = $cat;
 			}
 		}
-		if(!isset($_SESSION['seleziona_gestione_utenti'])){
-			$_SESSION['seleziona_gestione_utenti'] = 'inattivi';
+		if(!isset($_SESSION['seleziona_gestione_privilegi'])){
+			$_SESSION['seleziona_gestione_privilegi'] = 'inattivi';
 		}
-		$seleziona = $_SESSION['seleziona_gestione_utenti'];
+		$seleziona = $_SESSION['seleziona_gestione_privilegi'];
 		
 		switch($seleziona){
 			case 'inattivi':
@@ -387,7 +249,7 @@ class gestione_utenti implements IPage{
 		<h1>Gestione Utenti</h1>
         <form action="index.php" method="GET">
             	<p>Seleziona: 
-                    <input type="hidden" name="q" value="gestione_utenti" >
+                    <input type="hidden" name="q" value="gestione_privilegi" >
                     <input type="submit" 
                     	class="pulsante_ricerca<?php if($seleziona=='tutti')echo '_premuto'; ?>" 
                         name="seleziona_tutti" value="Tutti"  >
@@ -442,19 +304,19 @@ class gestione_utenti implements IPage{
 								<?php echo $obj->dataregistrazione ? date_translate(date('j F Y',$obj->dataregistrazione)) : '<span class="vuoto">vuoto</span>'; ?></span><br>
                             	<?php
 								if($obj->utente != $_SESSION['utente']){
-									if(!(array_search('eliminare utenti', $this->privilegi)=== false)){
-										echo '<a onclick="return confirm(\'Stai per eliminare definitivamente ',$obj->utente,'.\nSei sicuro di procedere?\')" class="right" href="index.php?q=gestione_utenti&amp;a=elimina&amp;id=',$obj->utente,'">Elimina</a>';
+									if(array_search('eliminare utenti', $this->privilegi)){
+										echo '<a onclick="return confirm(\'Stai per eliminare definitivamente ',$obj->utente,'.\nSei sicuro di procedere?\')" class="right" href="index.php?q=gestione_privilegi&a=elimina&id=',$obj->utente,'">Elimina</a>';
 									}
-									if(!(array_search('privilegiare utenti', $this->privilegi)=== false)) {
+									if(array_search('privilegiare utenti', $this->privilegi)) {
 										if($obj->attivo)
-											echo '<a class="right" href="index.php?q=gestione_utenti&amp;a=disattiva&amp;id=',$obj->utente,'">Disattiva</a> ';
+											echo '<a class="right" href="index.php?q=gestione_privilegi&a=disattiva&id=',$obj->utente,'">Disattiva</a> ';
 										else
-											echo '<a class="right" href="index.php?q=gestione_utenti&amp;a=attiva&amp;id=',$obj->utente,'">Attiva</a> ';
+											echo '<a class="right" href="index.php?q=gestione_privilegi&a=attiva&id=',$obj->utente,'">Attiva</a> ';
 										?>
                                         <form action="index.php" method="get">
                                         	<p>
                                             	<label for="nuova_categoriautente_<?php echo $obj->utente ?>"> Fai diventare: </label>
-                                        		<input type="hidden" name="q" value="gestione_utenti" >
+                                        		<input type="hidden" name="q" value="gestione_privilegi" >
                                                 <input type="hidden" name="a" value="cambia_profilo" >
                                                 <input type="hidden" name="id" value="<?php echo $obj->utente ?>">
                                                 <select name="nuova_categoriautente" id="nuova_categoriautente_<?php echo $obj->utente ?>">
@@ -493,14 +355,14 @@ class gestione_utenti implements IPage{
 	
 	function content2(){
 		require_once('php/modules.php');
-		gestisci_module('gestione_utenti', $this->privilegi);
+		gestisci_module('gestione_privilegi', $this->privilegi);
 	}
 	
 	//Stampa un messaggio di errore, perchè l'utente non ha il privilegio necessario a visualizzare un determinato pannello.
 	private function print_error(){ ?>
 		<h1>Accesso Negato</h1>
         <p>
-        	Non possiedi i privilegi necessari per visualizzare la pagina che stavi cercando di raggiungere.<br>
+        	Non possiedi i privilegi necessari per visualizzare la pagina che stavi cercando di raggiungere.<br />
             <span style="font-size:small">Torna alla <a href="index.php">home</a></span>
         </p>
 	<?php }

@@ -8,6 +8,7 @@ require_once("php/modules.php");
 class profilo implements IPage{
 	private $standard_layout;
 	private $title;
+	private $color;
 	private $db;
 	private $cerca;
 	private $auth;
@@ -21,6 +22,7 @@ class profilo implements IPage{
 		$this->standard_layout = true;
 		$this->title = "Area Riservata";
 		$this->db = new DBConn();
+		$this->color = "#F60";
 		$this->cerca = false;
 		$this->auth = array('profilo');
 	}
@@ -39,6 +41,10 @@ class profilo implements IPage{
 	
 	function cerca(){
 		return $this->cerca;
+	}
+	
+	function color(){
+		return $this->color;
 	}
 	
 	function db(){
@@ -75,7 +81,7 @@ class profilo implements IPage{
 		}
         
     	#profilo .campo{
-        	color: #F60;
+        	color: <?php echo $this->color(); ?>;
             font-size: 1.2em;
             letter-spacing: 1px;
             margin-right: 8px;

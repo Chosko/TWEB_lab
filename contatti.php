@@ -7,6 +7,7 @@ require_once("php/functions.php");
 class contatti implements IPage{
 	private $standard_layout;
 	private $title;
+	private $color;
 	private $db;
 	private $cerca;
 	
@@ -17,7 +18,8 @@ class contatti implements IPage{
 		}
 		$this->standard_layout = true;
 		$this->title = "Contatti";
-		$this->db = new DBConn();	
+		$this->db = new DBConn();
+		$this->color = "#F60";		
 		$this->cerca = false;
 	}
 	
@@ -43,6 +45,10 @@ class contatti implements IPage{
 	
 	function cerca(){
 		return $this->cerca;
+	}
+	
+	function color(){
+		return $this->color;
 	}
 	
 	function head_tags() { ?>

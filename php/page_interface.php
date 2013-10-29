@@ -14,6 +14,9 @@ interface IPage{
 	//Restituisce una stringa con il titolo della pagina.
 	function title();
 	
+	//Restituisce una stringa con il colore predefinito per la pagina.
+	function color();
+	
 	//Restituisce true se i privilegi dell'utente sono sufficienti a visualizzare la pagina. False altrimenti.
 	function auth();
 	

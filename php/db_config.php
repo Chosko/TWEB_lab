@@ -1,8 +1,8 @@
 <?php
 
-$db_user = "root";
-$db_password = "admin";
-$db_name = "progetto_finale";
-$db_host = "localhost";
+$db_user = "pbgncves";
+$db_password = "Jx0Fh2z2c5";
+$db_name = "pbgncves_progettofinale";
+$db_host = "mysql.netsons.com";
 
 ?>

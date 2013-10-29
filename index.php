@@ -116,12 +116,12 @@ if($redirect = $p->after_headers()){
     @import url("css/style.css");
 	
 	a, .a{
-		color: #F60;
+		color: <?php echo $p->color(); ?>;
 	}
 	
 	a:hover, .a:hover{
-		color: #F60;
-		text-shadow: 0 0 15px #F60;
+		color: <?php echo $p->color(); ?>;
+		text-shadow: 0 0 15px <?php echo $p->color(); ?>;
 	}
 	
 	#header{
@@ -129,46 +129,46 @@ if($redirect = $p->after_headers()){
 	}
 	
 	#menu li:active{
-		box-shadow: 0 0 15px #F60;
-		color: #F60;
+		box-shadow: 0 0 15px <?php echo $p->color(); ?>;
+		color: <?php echo $p->color(); ?>;
 	}
 	
 	#cerca input{
-		border: 4px solid #F60;
-		box-shadow: 0 0 26px #F60;	
+		border: 4px solid <?php echo $p->color(); ?>;
+		box-shadow: 0 0 26px <?php echo $p->color(); ?>;	
 	}
 	
 	#cerca input[type=submit]{
-		background-color: #F60;
+		background-color: <?php echo $p->color(); ?>;
 	}
 	
 	#big_title:hover{
-		text-shadow: 0 0 12px #F60;
+		text-shadow: 0 0 12px <?php echo $p->color(); ?>;
 	}
 	
 	.content1_riquadro{
-		background-color: #F60;
+		background-color: <?php echo $p->color(); ?>;
 	}
 	
 	.content1_riquadro h3{
-		color: #F60;
+		color: <?php echo $p->color(); ?>;
 	}
 	
 	.content1_piccolo {
-		background-color: #F60;
+		background-color: <?php echo $p->color(); ?>;
 	}
 	
 	.content1_piccolo h3{
-		color: #F60;
+		color: <?php echo $p->color(); ?>;
 	}
 	
 	label{
-		color: #F60;
+		color: <?php echo $p->color(); ?>;
 	}
 	
     <?php
 		//Stampa le regole css per il modulo di login
-		login_css("#F60");
+		login_css($p->color());
 	
         //Stampa le regole css aggiuntive della pagina 
         $p->css_rules();
@@ -233,8 +233,7 @@ if($redirect = $p->after_headers()){
                 $p->content();	//Stampa il contenuto della pagina con layout personalizzato
         ?>
         <div id="footer">
-        	<p> --- Informazioni e mail ---<br>
-            	Sito realizzato da: Ruben Caliandro.
+        	<p> Informazioni fiscali
             </p>
         </div>
     </div>
